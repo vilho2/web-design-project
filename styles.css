@@ -52,10 +52,10 @@ body, h1, h2, p, ul, table {
   
   
   .uutiset {
-    background: #4d4d4d;
+    background: #40523C;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .uutiset h2 {
