@@ -3,6 +3,7 @@ body, h1, h2, p, ul, table {
     margin: 0;
     padding: 0;
   }
+  
 
   .logo {
   display: flex;
@@ -15,7 +16,7 @@ body, h1, h2, p, ul, table {
   
   body {
     font-family: 'Roboto','Inria Sans';
-    line-height: 1.6;
+    background: #f0f0f0;
   }
   
   
@@ -115,4 +116,5 @@ body, h1, h2, p, ul, table {
   .footer-section {
     text-align: center;
   }
+  
   
