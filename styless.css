@@ -36,7 +36,13 @@ nav ul {
     color: black;
     font-size: 24px;
 }
-.container{
-    display: flex;
-    justify-content: flex-end;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 400px; /* Teksti vie tilaa, kuva 400px */
+    align-items: center; /* Keskitä pystysuunnassa */
+    gap: 20px; /* Lisää väliä tekstin ja kuvan välille */
+}
+.image img {
+    max-width: 100%;
+    height: auto;
 }
