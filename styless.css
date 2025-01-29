@@ -51,18 +51,18 @@ nav ul {
         "text-image";
 }
 news-item {
-    display: grid;
-    grid-template-columns: 150px 1fr; /* Kuva 150px, teksti vie loput tilasta */
+    display: flex;/* Kuva 150px, teksti vie loput tilasta */
     align-items: center; /* Keskittää sisällön pystysuunnassa */
-    gap: 20px; /* Lisää tilaa kuvan ja tekstin väliin */
+    justify-content: space-between/* Lisää tilaa kuvan ja tekstin väliin */
     margin-bottom: 20px; /* Lisää väliä uutisten väliin */
 }
 
 .image img {
-    max-width: 100%;
+    max-width: 150%;
     height: auto;
 }
 
 .text {
-    font-size: 16px;
+    flex: 1;
+    padding-right: 20px;
 }
