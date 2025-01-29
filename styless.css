@@ -69,3 +69,8 @@ news-item {
 html, body{
     overflow-x: hidden;
 }
+body, h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
