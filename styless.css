@@ -36,7 +36,7 @@ nav ul {
     color: black;
     font-size: 24px;
 }
-img {
-    float: right;
-    margin-left: 20px;
+.container{
+    display: flex;
+    justify-content: flex-end;
 }
