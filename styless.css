@@ -42,11 +42,27 @@ nav ul {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 400px;
-    align-items: center; /* Keskitä sisältö pystysuunnassa */
-    gap:20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto; /* Keskitä sisältö pystysuunnassa */
+       gap: 20px;
+       grid-template-columns:
+        "text-image"
+        "text-image"
+        "text-image";
 }
+news-item {
+    display: grid;
+    grid-template-columns: 150px 1fr; /* Kuva 150px, teksti vie loput tilasta */
+    align-items: center; /* Keskittää sisällön pystysuunnassa */
+    gap: 20px; /* Lisää tilaa kuvan ja tekstin väliin */
+    margin-bottom: 20px; /* Lisää väliä uutisten väliin */
+}
+
 .image img {
-    max-width: 100px; /* Aseta maksimi leveys kuvalle */
+    max-width: 100%;
     height: auto;
+}
+
+.text {
+    font-size: 16px;
 }
