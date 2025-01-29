@@ -9,6 +9,11 @@ body, h1, h2, p, ul, table {
     line-height: 1.6;
   }
 
+  .ruotsi{
+    width:auto;
+    height: 50px;
+  }
+
   .logo {
   display: flex;
   border-radius: 4px;
