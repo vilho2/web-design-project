@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: flex;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+    height: 100px;
+    justify-content: left;
+    }
+
+header {
+    background-image: url("images/football-website-banner.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    height: 300px;
+    
+}
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    padding: 10px 0;
+    
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+    padding-top: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+  }
+
+  .banner {
+    margin-top: 20px;
+     
+    text-align: left;
+    padding: 50px;
+    color: black;
+    font-size: 24px;
+    }
+  
+  .Otsikko h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #ddd;
+    margin-bottom: 20px;
+}
+.text {
+    width: 50%;
+    padding: 20px;
+}
+.image {
+    width: 50%;
+}
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.dark-background {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
