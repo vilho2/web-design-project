@@ -41,14 +41,12 @@ nav ul {
     height: auto;
 }
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 400px;
     align-items: center; /* Keskitä sisältö pystysuunnassa */
-}
-.text {
-    flex: 1; /* Vie jäljellä oleva tila */
-    padding-right: 20px; /* Lisää väliä tekstin ja kuvan väliin */
+    gap:20px;
 }
 .image img {
-    max-width: 400px; /* Aseta maksimi leveys kuvalle */
+    max-width: 100px; /* Aseta maksimi leveys kuvalle */
     height: auto;
 }
