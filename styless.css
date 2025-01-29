@@ -47,17 +47,18 @@ nav ul {
         "text-image";
 }
 news-item {
-    display: flex;/* Kuva 150px, teksti vie loput tilasta */
+    display: grid;/* Kuva 150px, teksti vie loput tilasta */
     align-items: center; /* Keskittää sisällön pystysuunnassa */
-    justify-content: space-between/* Lisää tilaa kuvan ja tekstin väliin */
+    grid-template-columns: 150px 1fr;/* Lisää tilaa kuvan ja tekstin väliin */
     margin-bottom: 20px; /* Lisää väliä uutisten väliin */
+    gap: 20px;
 }
 
 
 
 .image img {
     width: 120px; /* Pakottaa kuvan 120px leveäksi */
-    height: 80px; /* Pakottaa kuvan 80px korkeaksi */
+    height: 100px; /* Pakottaa kuvan 80px korkeaksi */
     object-fit: cover; /* Leikkaa kuvan, jos se ei sovi asetettuihin mittoihin */
 }
 
