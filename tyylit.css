@@ -29,6 +29,11 @@ body, h1 {
     height: 100px;
     justify-content: left;
   }
+
+  .ruotsi {
+    width: auto;
+    height: 50px;
+  }
   
   
   nav ul {
