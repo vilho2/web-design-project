@@ -66,3 +66,7 @@ news-item {
     flex: 1;
     padding-right: 20px;
 }
+@media (max-width: 600px) {
+    body {
+    background-position: center;
+    }
