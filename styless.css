@@ -53,9 +53,12 @@ news-item {
     margin-bottom: 20px; /* Lisää väliä uutisten väliin */
 }
 
+
+
 .image img {
-    max-width: 100%;
-    height: auto;
+    width: 120px; /* Pakottaa kuvan 120px leveäksi */
+    height: 80px; /* Pakottaa kuvan 80px korkeaksi */
+    object-fit: cover; /* Leikkaa kuvan, jos se ei sovi asetettuihin mittoihin */
 }
 
 .text {
